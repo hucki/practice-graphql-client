@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  font-size: 3rem;
+}
+.match-container {
+  margin: 40px auto;
+}
+.flag-img {
+  box-shadow: 7px 7px 10px #d6d6d6,
+  -7px -7px 10px #fff;
+}
+.details-container {
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  justify-content: space-between;
+}
