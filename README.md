@@ -1,10 +1,18 @@
 # Worldcup 2018
-## in short:
 simple Client for GraphQL Exercise made with koa
-## usage
+
+**Usage**
+
 choose a Match from a dropdown list and look at the result (work in progress).
-## Settings
-The GraphQL Server is defined in script.js with variables host/port (defaults to localhost 4000).
+![example](worldcup2018.png)
+
+**GraphQL Server Settings**
+  - defined in `./public/js/script.js` (defaults to `http://localhost:4000`).
+
+**Client Settings**
+  - defined in `index.js` (defaults to `http://localhost:3000`)
+
+Both servers must be running (just saying...)
 following queries will be send to the GraphQL server:
 ```
   {
